@@ -1,5 +1,15 @@
 #include <iostream>
 
+//using namespace std;
+
 int main() {
-	std::cout << "Hello Git" << std::endl;
+    using std::cout;
+    std::cout << "Hello world!" << std::endl;
+
+    sayHello();
+
+    return 0;
+}
+void sayHello() {
+
 }

@@ -1,15 +1,18 @@
 #include <iostream>
+#include "Name.h"
 
 //using namespace std;
 
 int main() {
     using std::cout;
-    std::cout << "Hello world!" << std::endl;
+    std::cout << "Hi" << std::endl;
 
-    sayHello();
+    //sayHello();
+
+    PrintName();
 
     return 0;
 }
 void sayHello() {
-
+    std::cout << "Hello" << std::endl;
 }
